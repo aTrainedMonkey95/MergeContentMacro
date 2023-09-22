@@ -4,7 +4,9 @@ I'm trying to develop this macro right now, but it keeps making MS Word crash. I
 Before running the macro, you need two documents (MotherDocument, and ActiveDocument). MotherDocument is the repository for all your content. Content is organized under headings (system default Heading 1). In ActiveDocument, write out the headings you want to include, then run the macro. The macro should scan each of the headings, find the corresponding content in MotherDocument, then copy and paste that content into ActiveDocument. I'm pretty new to programming and got help from ChatGPT to get this far.
 Here's the code I have so far: */
 
-Sub MergeHeadings()
+
+    
+    Sub MergeHeadings()
     Dim currentDoc As Document
     Dim motherDoc As Document
     Dim currentH1 As Paragraph
